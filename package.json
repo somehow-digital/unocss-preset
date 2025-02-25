@@ -1,0 +1,50 @@
+{
+	"name": "@somehow-digital/unocss-preset",
+	"description": "Shared `unocss` presets for `somehow.digital` projects.",
+	"version": "0.0.0",
+	"type": "module",
+	"license": "MIT",
+	"repository": "somehow-digital/unocss-preset",
+	"packageManager": "pnpm@10.4.1",
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=9"
+	},
+	"scripts": {
+		"prepare": "husky",
+		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
+		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:knip": "knip --no-progress",
+		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
+		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
+		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"fix:knip": "knip --fix --no-progress --workspace ."
+	},
+	"exports": {
+		".": "./preset/cspell-ext.json"
+	},
+	"files": [
+		"./preset/"
+	],
+	"peerDependencies": {
+		"unocss": "^66.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@somehow-digital/commitlint-config": "^1.0.0",
+		"@somehow-digital/cspell-dictionary": "^2.0.0",
+		"@somehow-digital/eslint-config": "^3.0.0",
+		"@somehow-digital/prettier-config": "^2.0.0",
+		"concurrently": "^9.0.0",
+		"cspell": "^8.13.1",
+		"eslint": "^9.1.1",
+		"husky": "^9.0.11",
+		"knip": "^5.11.0",
+		"lint-staged": "^15.2.5",
+		"prettier": "3.5.1",
+		"semantic-release": "^24.2.0",
+		"unocss": "^66.0.0"
+	}
+}

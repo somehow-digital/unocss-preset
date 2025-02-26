@@ -23,7 +23,7 @@
 		"fix:knip": "knip --fix --no-progress --workspace ."
 	},
 	"exports": {
-		".": "./preset/cspell-ext.json"
+		".": "./preset/basic.js"
 	},
 	"files": [
 		"./preset/"

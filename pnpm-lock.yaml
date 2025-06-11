@@ -16,7 +16,7 @@ importers:
         version: 1.1.0(@commitlint/cli@19.8.1(@types/node@22.15.30)(typescript@5.8.3))(cspell@9.0.2)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
-        version: 2.6.0(cspell@9.0.2)
+        version: 2.7.0(cspell@9.0.2)
       '@somehow-digital/eslint-config':
         specifier: ^3.0.0
         version: 3.0.3(eslint@9.28.0(jiti@2.4.2))(prettier@3.5.3)(typescript@5.8.3)
@@ -974,11 +974,11 @@ packages:
     peerDependencies:
       cspell: ^8.8.1
 
-  '@somehow-digital/cspell-dictionary@2.6.0':
-    resolution: {integrity: sha512-sFccvbQlFj4deKWJkd4x+8YCt+jRi5/Af2wyjmMMW/fhLvPnrppIHN6QDBGopPFdU1/+NT+wDq2C38X3VuO0DQ==}
-    engines: {node: '>=22', pnpm: '>=9'}
+  '@somehow-digital/cspell-dictionary@2.7.0':
+    resolution: {integrity: sha512-nhS40vZWdwlHz2vyPpAPc9wOPtDxviyNsfP7dYbjFjiiSXH2m3FKJA8GyPRxR2zvCFH2VXIqE0hnqdkZVh4fpw==}
+    engines: {node: '>=22', pnpm: '>=10'}
     peerDependencies:
-      cspell: ^8.13.0
+      cspell: ^8.13.0 || ^9.0.0
 
   '@somehow-digital/eslint-config@3.0.3':
     resolution: {integrity: sha512-L3aOWdnnbInXun8JSObFO/DHLC5kXy/NufpfVg24iFn3bIQPOYmqDoJH2Gunb5FTTsjncZgxWqo9qGMyMyTTdA==}
@@ -1789,8 +1789,8 @@ packages:
   fd-package-json@2.0.0:
     resolution: {integrity: sha512-jKmm9YtsNXN789RS/0mSzOC1NUq9mkVd65vbSSVsKdjGvYXBuE4oWe2QOEoFeRmJg+lPuZxpmrfFclNhoRMneQ==}
 
-  fdir@6.4.5:
-    resolution: {integrity: sha512-4BG7puHpVsIYxZUbiUE3RqGloLaSSwzYie5jvasC4LWuBWzZawynvYouhjbQKw2JuIGYdm0DzIxl8iVidKlUEw==}
+  fdir@6.4.6:
+    resolution: {integrity: sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -4216,7 +4216,7 @@ snapshots:
       cspell: 9.0.2
       cspell-lib: 8.19.4
 
-  '@somehow-digital/cspell-dictionary@2.6.0(cspell@9.0.2)':
+  '@somehow-digital/cspell-dictionary@2.7.0(cspell@9.0.2)':
     dependencies:
       '@cspell/dict-de-de': 4.1.0
       cspell: 9.0.2
@@ -5290,7 +5290,7 @@ snapshots:
     dependencies:
       walk-up-path: 4.0.0
 
-  fdir@6.4.5(picomatch@4.0.2):
+  fdir@6.4.6(picomatch@4.0.2):
     optionalDependencies:
       picomatch: 4.0.2
 
@@ -6410,7 +6410,7 @@ snapshots:
 
   tinyglobby@0.2.14:
     dependencies:
-      fdir: 6.4.5(picomatch@4.0.2)
+      fdir: 6.4.6(picomatch@4.0.2)
       picomatch: 4.0.2
 
   to-regex-range@5.0.1:
@@ -6538,7 +6538,7 @@ snapshots:
   vite@6.3.5(@types/node@22.15.30)(jiti@2.4.2)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.5
-      fdir: 6.4.5(picomatch@4.0.2)
+      fdir: 6.4.6(picomatch@4.0.2)
       picomatch: 4.0.2
       postcss: 8.5.4
       rollup: 4.42.0

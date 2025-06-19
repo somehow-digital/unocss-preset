@@ -1,14 +1,14 @@
 import {
 	definePreset,
 	presetIcons,
-	presetMini,
+	presetWind4,
 	transformerVariantGroup,
 } from 'unocss';
 
 export default definePreset(() => {
 	return {
 		name: 'basic',
-		presets: [presetMini(), presetIcons()],
+		presets: [presetWind4(), presetIcons()],
 		transformers: [transformerVariantGroup()],
 	};
 });

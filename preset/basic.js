@@ -1,9 +1,4 @@
-import {
-	definePreset,
-	presetIcons,
-	presetWind4,
-	transformerVariantGroup,
-} from 'unocss';
+import { definePreset, presetIcons, presetWind4, transformerVariantGroup } from 'unocss';
 
 export default definePreset(() => {
 	return {

@@ -3,7 +3,14 @@ import { definePreset, presetIcons, presetWind4, transformerVariantGroup } from 
 export default definePreset(() => {
 	return {
 		name: 'basic',
-		presets: [presetWind4(), presetIcons()],
+		presets: [
+			presetWind4({
+				preflights: {
+					reset: true,
+				},
+			}),
+			presetIcons(),
+		],
 		transformers: [transformerVariantGroup()],
 	};
 });

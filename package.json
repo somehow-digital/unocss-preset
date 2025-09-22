@@ -2,7 +2,7 @@
 	"name": "@somehow-digital/unocss-preset",
 	"type": "module",
 	"version": "0.0.0",
-	"packageManager": "pnpm@10.17.0",
+	"packageManager": "pnpm@10.17.1",
 	"description": "Shared `unocss` presets for `somehow.digital` projects.",
 	"license": "MIT",
 	"repository": "somehow-digital/unocss-preset",

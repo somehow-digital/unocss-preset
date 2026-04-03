@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@somehow-digital/styles':
-        specifier: ^1.0.1
-        version: 1.0.1
+        specifier: ^2.0.0
+        version: 2.0.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.0.0
@@ -1656,8 +1656,8 @@ packages:
     peerDependencies:
       semantic-release: ^24.0.0 || ^25.0.0
 
-  '@somehow-digital/styles@1.0.1':
-    resolution: {integrity: sha512-bV2zZtkeJqatfEx3tbAi9jP5LSgzJN24yl8OWpayvfK3g1I8et6ozoU4jK+yxzR2JX8wt1x5x42XjKfGjGC0Jw==}
+  '@somehow-digital/styles@2.0.0':
+    resolution: {integrity: sha512-3ibyoCCv4vph8W2wvBlGLDVmAotk1AXj6cEHcfeGns1xhTGMNYNNQqzjkLDhEBxbd0v01tW3q/zuoJZlFU/U+g==}
     engines: {node: '>=22', pnpm: '>=10'}
 
   '@stylistic/eslint-plugin@5.9.0':
@@ -5813,7 +5813,7 @@ snapshots:
       conventional-changelog-conventionalcommits: 9.2.0
       semantic-release: 25.0.3(typescript@5.9.3)
 
-  '@somehow-digital/styles@1.0.1': {}
+  '@somehow-digital/styles@2.0.0': {}
 
   '@stylistic/eslint-plugin@5.9.0(eslint@10.1.0(jiti@2.6.1))':
     dependencies:

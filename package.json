@@ -31,7 +31,7 @@
 		"unocss": "^66.0.0"
 	},
 	"dependencies": {
-		"@somehow-digital/styles": "^1.0.1"
+		"@somehow-digital/styles": "^2.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^20.0.0",

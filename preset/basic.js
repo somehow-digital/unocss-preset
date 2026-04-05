@@ -1,5 +1,5 @@
 import styles from '@somehow-digital/styles';
-import { definePreset, presetIcons, presetWind4, transformerVariantGroup } from 'unocss';
+import { definePreset, presetIcons, presetWind4, transformerDirectives, transformerVariantGroup } from 'unocss';
 
 export default definePreset(() => {
 	return {
@@ -12,7 +12,10 @@ export default definePreset(() => {
 			}),
 			presetIcons(),
 		],
-		transformers: [transformerVariantGroup()],
+		transformers: [
+			transformerVariantGroup(),
+			transformerDirectives(),
+		],
 		preflights: [
 			{
 				getCSS: () => styles,

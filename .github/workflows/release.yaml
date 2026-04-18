@@ -10,8 +10,9 @@ jobs:
     name: verify source
     uses: ./.github/workflows/source.yaml
   security:
-    name: verify source
+    name: verify security
     uses: ./.github/workflows/security.yaml
+    secrets: inherit
   release:
     name: release version
     runs-on: ubuntu-latest

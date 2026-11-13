@@ -20,3 +20,7 @@ export default defineConfig({
 	presets: [basic()],
 });
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)

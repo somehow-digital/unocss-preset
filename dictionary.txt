@@ -2,3 +2,4 @@ Deinhamer
 esbuild
 trufflesecurity
 voidzero
+tsrs

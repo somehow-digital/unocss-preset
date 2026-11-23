@@ -17,7 +17,9 @@ import basic from '@somehow-digital/unocss-preset';
 import { defineConfig } from 'unocss';
 
 export default defineConfig({
-	presets: [basic()],
+	presets: [
+		basic()
+	],
 });
 ```
 
